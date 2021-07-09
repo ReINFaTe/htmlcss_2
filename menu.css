@@ -1,0 +1,27 @@
+.menu {
+    height: 80px;
+    background: #777777;
+    display: flex;
+}
+.menu > ul {
+    padding: 0 10px 0 10px;
+    margin: auto;
+    width: 980px;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+}
+.menu > ul > li {
+    margin: auto auto;
+    font-family: 'PT Sans';
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+}
+
+.menu > ul > li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
